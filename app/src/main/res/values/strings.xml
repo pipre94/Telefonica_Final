@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Telefonica</string>
+    <string name="username">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="txt_login">Iniciar</string>
+    <string name="txt_help">¿No tiene cuenta?</string>
+    <string name="txt_link">Crear Cuenta</string>
+    <string name="email">Correo Electronico</string>
+    <string name="name">Nombre</string>
+    <string name="user">Usuario</string>
+    <string name="passwordConfirm">Confirmar Contraseña</string>
+    <string name="txt_accept">Aceptar</string>
+    <string name="txt_title_toolbar">Crear Cuenta</string>
+    <string name="txt_user">Usuario</string>
+    <string name="txt_pasw">Contrseña</string>
+    <string name="txt_corr">Correo Electronico</string>
+    <string name="txt_name">Nombre</string>
+    <string name="txt_confpasw">Confirmar Contraseña</string>
+</resources>
