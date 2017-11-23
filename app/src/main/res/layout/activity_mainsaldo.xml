@@ -6,4 +6,39 @@
     android:layout_height="match_parent"
     tools:context="com.example.telefonica_final.Mainsaldo">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Saldo Pendiende"/>
+
+    <TextView
+        android:id="@+id/valor_deuda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="DEUDA"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/btn_recargar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RECARGAR"
+            android:onClick="pago"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>
