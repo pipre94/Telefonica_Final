@@ -29,9 +29,8 @@ public class ActivityMenu extends AppCompatActivity {
         Log.i("LOGTAG", "Se creo una Deuda: "+ dataTelefonica.findAll().get(0).getDeuda());
     }
 
-    public void exit(){
+    public void exit(View view){
         finish();
-        System.exit(2);
     }
 
     public void pago(View view){
