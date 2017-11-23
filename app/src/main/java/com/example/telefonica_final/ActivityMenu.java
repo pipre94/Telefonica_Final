@@ -34,12 +34,12 @@ public class ActivityMenu extends AppCompatActivity {
         System.exit(2);
     }
 
-    public void pago(){
+    public void pago(View view){
         Intent intent = new Intent(this, Mainpago.class);
         startActivity(intent);
     }
 
-    public void saldo(){
+    public void saldo(View view){
         Intent intent = new Intent(this, Mainsaldo.class);
         startActivity(intent);
     }
