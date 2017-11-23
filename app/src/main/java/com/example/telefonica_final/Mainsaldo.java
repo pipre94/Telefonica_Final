@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.example.telefonica_final.Data.DataTelefonica;
+import com.example.telefonica_final.Models.Pago;
 
 import java.util.List;
 

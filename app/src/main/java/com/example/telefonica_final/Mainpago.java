@@ -13,6 +13,8 @@ import android.widget.Spinner;
 import android.widget.Toast;
 
 import com.example.telefonica_final.Data.DataTelefonica;
+import com.example.telefonica_final.Models.Pago;
+import com.example.telefonica_final.Models.Recarga;
 
 import java.util.List;
 
