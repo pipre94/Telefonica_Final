@@ -15,6 +15,7 @@ public class ActivityMenu extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -28,17 +29,17 @@ public class ActivityMenu extends AppCompatActivity {
         Log.i("LOGTAG", "Se creo una Deuda: "+ dataTelefonica.findAll().get(0).getDeuda());
     }
 
-    public void exit(View view){
+    public void exit(){
         finish();
         System.exit(2);
     }
 
-    public void pago(View view){
+    public void pago(){
         Intent intent = new Intent(this, Mainpago.class);
         startActivity(intent);
     }
 
-    public void saldo(View view){
+    public void saldo(){
         Intent intent = new Intent(this, Mainsaldo.class);
         startActivity(intent);
     }

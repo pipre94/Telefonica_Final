@@ -10,7 +10,6 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onShowAccount2(View view){
-        Intent intent = new Intent(this, ActivityMenu.class);
+        Intent intent = new Intent(this, Mainpago.class);
         startActivity(intent);
     }
 
