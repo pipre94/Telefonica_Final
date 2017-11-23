@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onShowAccount2(View view){
-        Intent intent = new Intent(this, Mainpago.class);
+        Intent intent = new Intent(this, ActivityMenu.class);
         startActivity(intent);
     }
 

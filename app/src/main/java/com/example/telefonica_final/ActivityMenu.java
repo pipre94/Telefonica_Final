@@ -17,7 +17,7 @@ public class ActivityMenu extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_menu);
 
         dataTelefonica = new DataTelefonica(this);
         dataTelefonica.open();
