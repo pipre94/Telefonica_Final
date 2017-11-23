@@ -6,9 +6,10 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import com.example.kenet.sqlitetelefonica_final.Helper.HelperTelefonica;
-import com.example.kenet.sqlitetelefonica_final.Models.Pago;
-import com.example.kenet.sqlitetelefonica_final.Models.Recarga;
+
+import com.example.telefonica_final.Helper.HelperTelefonica;
+import com.example.telefonica_final.Models.Pago;
+import com.example.telefonica_final.Models.Recarga;
 
 import java.util.ArrayList;
 import java.util.List;
