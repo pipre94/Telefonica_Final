@@ -60,7 +60,7 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Inisiar Sesión"
+                android:text="Iniciar Sesión"
                 android:layout_marginTop="40dp"
                 android:onClick="onShowAccount2"
                 android:theme="@style/MyRaisedButton"/>
