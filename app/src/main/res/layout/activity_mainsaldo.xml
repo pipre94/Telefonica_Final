@@ -9,9 +9,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteX="129dp"
-        tools:layout_editor_absoluteY="121dp">
+        android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -60,7 +58,8 @@
                 android:layout_width="180dp"
                 android:layout_height="wrap_content"
                 android:onClick="pago"
-                android:text="RECARGAR"
+                android:text="Recargar"
+                android:theme="@style/MyRaisedButton"
                 android:layout_marginTop="50dp"
                 android:layout_gravity="center"/>
 
